@@ -88,7 +88,7 @@
     text-transform: uppercase;
     color: white;
     z-index: 2;
-    font-style: Bold;
+    font-weight: bold;
     font-size: 100px;
     line-height: 115%;
 }
@@ -106,7 +106,7 @@
 .aligned-text_center {
     display: inline-block;
     width: 100%;
-    font-style: Bold;
+    font-weight: bold;
     text-align: center;
     letter-spacing: 30px;
     margin-left: 15px;
@@ -159,7 +159,7 @@
 }
 
 .lots__heading {
-    font-style: Bold;
+    font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
     padding-bottom: 27px;
@@ -290,7 +290,7 @@
     padding-left: 54px;
     font-size: 40px;
     text-transform: uppercase;
-    font-style: Bold;
+    font-weight: bold;
     margin-bottom: 100px;
 }
 
@@ -325,7 +325,7 @@
     font-size: 18px;
     line-height: 1.35;
     text-underline-offset: 4px;
-    letter-spacing: 1;
+    letter-spacing: 1px;
 }
 
 .footer__menu {

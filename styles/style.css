@@ -264,7 +264,7 @@
 }
 
 .about__logo {
-    max-width: 240px;
+    width: 240px;
     height: 240px;
     border-radius: 50%;
     background-color: #000;
@@ -275,7 +275,7 @@
 }
 
 .about__logo-image {
-    max-width: 150px;
+    width: 150px;
     height: 150px;
     align-items: center;
     justify-content: center;

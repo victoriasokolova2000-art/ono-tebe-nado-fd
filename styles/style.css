@@ -85,18 +85,18 @@
 }
 
 .cover_title {
-    position: absolute;
+    position: relative;
     text-transform: uppercase;
     color: white;
     z-index: 2;
     font-weight: bold;
     font-size: 100px;
     line-height: 115%;
+    max-width: 100%;
 }
 
 .aligned-text_left {
-    display: inline-block;
-    max-width: 100%;
+    display: block;
     padding-top: 165px;
     padding-left: 50px;
     text-align: left;
@@ -105,8 +105,7 @@
 }
 
 .aligned-text_center {
-    display: inline-block;
-    max-width: 100%;
+    display: block;
     font-weight: bold;
     text-align: center;
     letter-spacing: 30px;
@@ -115,8 +114,7 @@
 }
 
 .aligned-text_right {
-    display: inline-block;
-    max-width: 100%;
+    display: block;
     padding-right: 20px;
     text-align: right;
     letter-spacing: 30px;

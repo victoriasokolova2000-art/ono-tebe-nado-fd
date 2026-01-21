@@ -8,11 +8,12 @@
 }
 
 body {
-  width: 1100px;
+  max-width: 1100px;
+  width: 100%;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   background-color: #ffffff;
-;
+  overflow-x: hidden;
 }
 
 h1,

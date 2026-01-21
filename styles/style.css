@@ -172,14 +172,14 @@
 }
 
 .lots__card-list-item {
-    max-width: 334px;
+    max-width: 100%;
     list-style: none;
 }
 
 .card {
     display: block;
     min-height: 596px;
-    max-width: 100%;
+    width: 334px;
 }
 
 .overlay_lots {
@@ -318,6 +318,7 @@
     max-width: 300px;
     justify-self: start;
     padding-left: 51px;
+    padding-bottom: 82px;
     white-space: wrap;
     align-items: flex-start;
     word-wrap: break-word;

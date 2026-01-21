@@ -62,7 +62,7 @@
 .cover {
     display: block;
     height: 757px;
-    width: 1100px;
+    max-width: 1100px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: 125%;
@@ -74,7 +74,7 @@
     display: flex;
     position: absolute;
     height: 757px;
-    width: 1100px;
+    max-width: 1100px;
     background-color: black;
     opacity: 60%;
     top: 0;
@@ -141,7 +141,7 @@
     display: inline-block;
     vertical-align: baseline;
     margin-left: 102px;
-    width: 256px;
+    max-width: 256px;
     height: 51px;
     color: white;
     background-color: transparent;
@@ -174,7 +174,7 @@
 }
 
 .lots__card-list-item {
-    width: 334px;
+    max-width: 334px;
     list-style: none;
 }
 
@@ -266,7 +266,7 @@
 }
 
 .about__logo {
-    width: 240px;
+    max-width: 240px;
     height: 240px;
     border-radius: 50%;
     background-color: #000;
@@ -277,7 +277,7 @@
 }
 
 .about__logo-image {
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     align-items: center;
     justify-content: center;
@@ -358,7 +358,7 @@
 }
 
 .footer__social-list-item {
-    width: 48px;
+    max-width: 48px;
     height: 48px;
     list-style: none;
 }
